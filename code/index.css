@@ -22,7 +22,16 @@ h5 {
 
 
 .button {
-
+  text-transform: uppercase;
+  height: 47px;
+  width: 157px;
+  border: 1px solid #749F80;
+  border-radius: 3px;
+  color: white;
+  background: #709F7C;
+  background: -webkit-linear-gradient(bottom, #709F7C, #88B796);
+  background: -moz-linear-gradient(bottom, #709F7C, #88B796);
+  background: linear-gradient(to top, #709F7C, #88B796);
 }
 
 
@@ -31,16 +40,113 @@ h5 {
               Page
 *******************************/
 
-.hero {
-
+.page {
 }
 
-.page {
+.hero {
+  background-color: #DCEEEF;
+  height: 418px;
+}
 
+.hero .hero-background {
+  width: 600px;
+  float: right;
+  position: relative;
+  top: -220px;
+  right: 160px;
+}
+
+.hero .container img {
+  margin-top: 20px;
+}
+
+.hero p {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 425px;
+  font-size: 21px;
+}
+
+.container.cards {
+  clear: both;
+  position: relative;
+  top: -200px;
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.card {
+  background-color: #37393A;
+  margin: 23px;
+  width: 330px;
+  height: 371px;
+  /*height: 356px;
+  margin-top: 10px;
+  line-height: 150px;*/
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  box-shadow:0px 0px 20px grey;
+}
+
+.card h3 {
+  font-family: "Lato", Arial, sans-serif;
+}
+
+.card-header-image {
+  height: 195px;
+}
+
+.card-header-image img {
+  position: relative;
+  top: 53px;
+}
+
+.card-content {
+  background-color: white;
+  color: #37393A;
+  width: 100%;
+  height: 176px;
+  padding: 20px 30px 0px 30px;
+}
+
+.bottom-cta {
+  background-image: url("images/landscape-bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  font-size: 24px;
+  color: gray;
+  margin-top: 60px;
+}
+
+.bottom-cta > div {
+  flex: 1;
+  padding: 0px 150px;
+  height: 200px;
 }
 
 .footer {
+  background-color: #37393A;
+  color: gray;
+  height: 50px;
+  line-height: 50px;
+}
 
+.footer img {
+  position: relative;
+  top: 4px;
+  right: 4px;
 }
 
 
